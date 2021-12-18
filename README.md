@@ -50,7 +50,7 @@ For a query image, its BOVW vector could be compared with that of every other da
 * K means algorithm could be sensitive to outliers
 
 # Alternate Approaches
-* Hashing algorithms like dHash could be used which looks at the difference between adjacent pixel values and calculating a hash value based on that. The idea is that similar images would be having similar/close hash values. 
+* Hashing algorithms like dHash could be used which looks at the difference between adjacent pixel values and calculates a hash value based on that. The idea is that similar images would be having similar/close hash values. 
 * Mean Squared Error (MSE) between the pixel values of two images could be calculated and checked whether it falls within a threshold or not. If yes, the images are similar
 * **Both the above approaches could be used to detect duplicate images, especially the MSE method.**
 
